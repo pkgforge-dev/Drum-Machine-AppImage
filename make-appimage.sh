@@ -22,7 +22,9 @@ export GTK_CLASS_FIX=1
 quick-sharun /usr/bin/drum-machine \
              /usr/lib/libgirepository*
 
-# Additional changes can be done in between here
+# Patch Drum Machine to use AppImage's directory
+sed -i '/^pkgdatadir/c\pkgdatadir = os.getenv("SHARUN_DIR", "/usr") + "/share/drum-machine"' ./AppDir/bin/drum-machine
+sed -i '/^localedir/c\localedir = os.getenv("SHARUN_DIR", "/usr") + "/share/locale"' ./AppDir/bin/drum-machine
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
