@@ -28,5 +28,7 @@ quick-sharun /usr/bin/drum-machine \
 sed -i '/^pkgdatadir/c\pkgdatadir = os.getenv("SHARUN_DIR", "/usr") + "/share/drum-machine"' ./AppDir/bin/drum-machine
 sed -i '/^localedir/c\localedir = os.getenv("SHARUN_DIR", "/usr") + "/share/locale"' ./AppDir/bin/drum-machine
 
+echo 'DO_NOT_USE_LIBDECOR_FFS=1' >> ./AppDir/.env
+
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
