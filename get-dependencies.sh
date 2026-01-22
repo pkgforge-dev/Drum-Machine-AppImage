@@ -14,6 +14,4 @@ get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini
 
 echo "Installing package..."
 echo "---------------------------------------------------------------"
-pacman -Rns sdl2-compat
-make-aur-package sdl2
 make-aur-package drum-machine
