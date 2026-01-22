@@ -20,7 +20,8 @@ export GTK_CLASS_FIX=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/drum-machine \
-             /usr/lib/libgirepository*
+             /usr/lib/libgirepository* \
+             /usr/bin/ffmpeg
 
 # Patch Drum Machine to use AppImage's directory
 sed -i '/^pkgdatadir/c\pkgdatadir = os.getenv("SHARUN_DIR", "/usr") + "/share/drum-machine"' ./AppDir/bin/drum-machine
