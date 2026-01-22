@@ -6,8 +6,12 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm drum-machine pipewire-audio
+pacman -Syu --noconfirm pipewire-audio
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
+
+echo "Installing package..."
+echo "---------------------------------------------------------------"
+make-aur-package drum-machine
