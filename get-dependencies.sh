@@ -10,7 +10,7 @@ pacman -Syu --noconfirm pipewire-audio ffmpeg
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
-get-debloated-pkgs --add-common --prefer-nano
+get-debloated-pkgs --add-common --prefer-nano ffmpeg-mini
 
 echo "Installing package..."
 echo "---------------------------------------------------------------"
