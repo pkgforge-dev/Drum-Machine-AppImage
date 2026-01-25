@@ -1,4 +1,4 @@
-# Drum-Machine AppImage 🐧
+# Drum Machine AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Drum-Machine-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Drum-Machine-AppImage/releases/latest)
 [![CI Build Status](https://github.com//pkgforge-dev/Drum-Machine-AppImage/actions/workflows/appimage.yml/badge.svg)](https://github.com/pkgforge-dev/Drum-Machine-AppImage/releases/latest)
