@@ -1,3 +1,5 @@
+<div align="center">
+
 # Drum Machine AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Drum-Machine-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Drum-Machine-AppImage/releases/latest)
@@ -8,7 +10,11 @@
   <img src="https://raw.githubusercontent.com/Revisto/drum-machine/refs/heads/main/data/icons/hicolor/scalable/apps/io.github.revisto.drum-machine.svg" width="128" />
 </p>
 
-* [Upstream URL](https://github.com/Revisto/drum-machine)
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/Drum-Machine-AppImage/releases/latest) | [Click here](https://github.com/Revisto/drum-machine) |
+
+</div>
 
 ---
 
