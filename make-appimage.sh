@@ -14,7 +14,6 @@ export DEPLOY_PYTHON=1
 export DEPLOY_SDL=1
 export DEPLOY_GTK=1
 export GTK_DIR=gtk-4.0
-export ANYLINUX_LIB=1
 export DEPLOY_LOCALE=1
 export STARTUPWMCLASS=io.github.revisto.drum-machine # Default to Wayland's wmclass. For X11, GTK_CLASS_FIX will force the wmclass to be the Wayland one.
 export GTK_CLASS_FIX=1
